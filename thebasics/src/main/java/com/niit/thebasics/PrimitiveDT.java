@@ -3,12 +3,13 @@ package com.niit.thebasics;
 public class PrimitiveDT {
 	// entry point for program
 public static void main(String... args){
-	short s1 = 23;
+	// Examples of declaration....
+	/*short s1 = 23;
 	short s2;
 	s2 = 0;
 	long l = 3L;
 	double d = 12.34;
-	float f = 12.34f;
+	float f = 12.34f;*/
 	long x = 56_789; // what's it value
 	// 56,789
 	System.out.println(x);

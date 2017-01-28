@@ -7,10 +7,10 @@
     <artifactId>demo</artifactId>
     <version>1.93.5</version>
   </parent>
-  <groupId>helloworld</groupId>
-  <artifactId>helloworld</artifactId>
-  <version>1.1.0</version>
-  <name>helloworld</name>
+  <groupId>class_demo</groupId>
+  <artifactId>classes_inheritance_super</artifactId>
+  <version>1.0.0</version>
+  <name>classes_inheritance_super</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

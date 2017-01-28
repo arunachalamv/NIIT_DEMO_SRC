@@ -7,10 +7,10 @@
     <artifactId>demo</artifactId>
     <version>1.93.5</version>
   </parent>
-  <groupId>helloworld</groupId>
-  <artifactId>helloworld</artifactId>
+  <groupId>enums_static_and_fun_stuff</groupId>
+  <artifactId>enums_static_and_fun_stuff</artifactId>
   <version>1.1.0</version>
-  <name>helloworld</name>
+  <name>enums_static_and_fun_stuff</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
