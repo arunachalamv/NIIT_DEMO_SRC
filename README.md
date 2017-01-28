@@ -5,6 +5,18 @@ The default is a very old old version and depends on ant-contrib v 1.0b2 (1.03 h
 
 Use these files as base and extend to update them as per requirements of assignment/project. 
 
+## Source Index (NB: WILL KEEP BEING UPDATED) 
+|Directory                             |Description                                  |
+|--------------------------------------|---------------------------------------------|
+|helloworld                            |The basic Hello world                        |
+|thebasic                              |primitive data types, expressions and loops. |
+|stringsandarrays                      |Strings and Arrays                           |
+|classes_inheritance_super             |Information on Classes and Inheritance       |
+|enums_static_and_fun_stuff            |Enum and Statics                             |
+|classes_inner_static_anonymous_demo   |Misc. Class stuff                            |
+|designpatterns                        |This is still work in progress               |
+
+
 ## Required Software
 * Maven 
 * ANT 
