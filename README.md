@@ -15,6 +15,8 @@ Use these files as base and extend to update them as per requirements of assignm
 |enums_static_and_fun_stuff            |Enum and Statics                             |
 |classes_inner_static_anonymous_demo   |Misc. Class stuff                            |
 |designpatterns                        |This is still work in progress               |
+|utilities                             |Common Source for All utility function       |
+|jdbc                                  |Getting Started with JDBC                    |
 
 
 ## Required Software

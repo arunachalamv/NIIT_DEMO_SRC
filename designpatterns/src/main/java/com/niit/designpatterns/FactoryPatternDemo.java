@@ -7,6 +7,8 @@ public class FactoryPatternDemo {
 
 	      //get an object of Circle and call its draw method.
 	      Shape shape1 = shapeFactory.getShape("CIRCLE");
+	      //Factory.getInstance().create("com.niit.Helloworld")
+
 
 	      //call draw method of Circle
 	      shape1.draw();

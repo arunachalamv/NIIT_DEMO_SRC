@@ -1,4 +1,4 @@
-package com.niit.designpatterns;
+package com.niit.jdbc.firstexample;
 
 import java.sql.DriverManager;
 import java.sql.ResultSet;

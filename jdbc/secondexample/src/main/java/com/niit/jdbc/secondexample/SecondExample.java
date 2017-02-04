@@ -1,4 +1,4 @@
-package com.niit.designpatterns;
+package com.niit.jdbc.secondexample;
 
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -6,23 +6,34 @@ import java.sql.SQLException;
 
 import com.mysql.jdbc.Connection;
 import com.mysql.jdbc.Statement;
+import com.niit.utilities.PropertyHelper;
+import com.niit.utilities.PropertyLoader;
 
-public class FirstExample {
+
+public class SecondExample {
+	  static { 
+		  PropertyHelper.loadProperties("db.properties");
+	  }
 	// JDBC driver name and database URL
-	   static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
-	   static final String DB_URL = "jdbc:mysql://localhost:3306/world";
+	   static final String JDBC_DRIVER = PropertyHelper.get("jdbc_driver");  
+	   static final String DB_URL = PropertyHelper.get("jdbc_url");
 	  // new FirstExample(); 
 	   //  Database credentials
-	   static final String USER = "root";
-	   static final String PASS = "root";
+	   static final String USER = PropertyHelper.get("jdbc_user"); 
+	   static final String PASS = PropertyHelper.get("jdbc_password"); 
+	   
+
 	   static Connection conn = null;
 	   static Statement stmt = null;
 	   public static void main(String[] args) {
 	   try{
-	
-	      //STEP 2: Register JDBC driver
-	      Class.forName("com.mysql.jdbc.Driver");
-
+		   System.out.println(PropertyHelper.get("jdbc_driver"));
+		   System.out.println(PropertyHelper.get("jdbc_url"));
+		   System.out.println(PropertyHelper.get("jdbc_user"));
+		   System.out.println(PropertyHelper.get("jdbc_password"));
+		   //STEP 2: Register JDBC driver
+	      //Class.forName(PropertyHelper.get("jdbc_driver"));
+		   Class.forName("com.mysql.jdbc.Driver"); 
 	      //STEP 3: Open a connection
 	      System.out.println("Connecting to database...");
 	      conn = (Connection)DriverManager.getConnection(DB_URL,USER,PASS);
