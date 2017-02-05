@@ -3,11 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.niit</groupId>
+    <groupId>com.niit.jdbc</groupId>
     <artifactId>jdbc</artifactId>
     <version>1.93.5</version>
   </parent>
-  <groupId>com.niit</groupId>
+  <groupId>com.niit.firstexample</groupId>
   <artifactId>firstexample</artifactId>
   <version>1.93.5</version>
   <name>firstexample</name>
