@@ -5,7 +5,6 @@ import com.mysql.jdbc.Connection;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 
-@SuppressWarnings("rawtypes")
 public class MySQLCustomerDAO implements CityDAO {
 
 	
@@ -13,11 +12,11 @@ public class MySQLCustomerDAO implements CityDAO {
 	
 	}
 	@Override
-	public ArrayList getAllCities() {
+	public ArrayList<Cities> getAllCities() {
 		return getAllCities("AFG");
 	}
 	@Override
-	public ArrayList getAllCities(String country) {
+	public ArrayList <Cities>getAllCities(String country) {
 		Connection conn = MySQLDAOFactory.getConnection();
 		ResultSet rs = MySQLDAOFactory.executeStatement(conn, "SELECT * FROM world.city where world.city.CountryCode=?", country);
 		ArrayList<Cities> p = new ArrayList<Cities>();

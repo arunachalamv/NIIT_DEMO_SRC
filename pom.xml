@@ -185,5 +185,6 @@
     	<module>designpatterns</module>
     	<module>jdbc</module>
     	<module>utilities</module>
+    <module>collections</module>
   </modules>
 </project>

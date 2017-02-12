@@ -1,6 +1,10 @@
 package com.niit.daopatterns;
 
 public class Cities implements java.io.Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1761397239948674676L;
 	private Integer id; 
 	private String name; 
 	private String district; 

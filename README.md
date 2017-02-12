@@ -18,6 +18,7 @@ Use these files as base and extend to update them as per requirements of assignm
 |utilities                             |Common Source for All utility function       |
 |jdbc                                  |Getting Started with JDBC                    |
 |daopatterns                           |DAO, JDBC. DAO Patterns & Basic Collections  |
+|Collections                           |ArrayList,HashMap/Table, Double LinkedList   |
 
 
 ## Required Software
