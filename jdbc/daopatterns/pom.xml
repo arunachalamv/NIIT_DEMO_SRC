@@ -9,11 +9,20 @@
   </parent>
   <groupId>com.niit.daopatterns</groupId>
   <artifactId>daopatterns</artifactId>
-  <version>1.93.5</version>
+  <version>1.93.6</version>
   <name>daopatterns</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+
+    <dependencies>
+    <dependency>
+    <groupId>com.niit.utilities</groupId>
+    <artifactId>utilities</artifactId>
+    <version>1.93.6</version>
+</dependency>
+    
+  </dependencies>
 
     </project>

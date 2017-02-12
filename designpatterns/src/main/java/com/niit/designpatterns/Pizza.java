@@ -12,8 +12,6 @@ public class Pizza {
 	  private boolean cheese;
 	  private boolean pepperoni;
 	  private boolean bacon; 
-	  private boolean corn; 
-	  private boolean onions; 
 	  public String toString(){ 
 		  return String.format("Size: %d, Cheese: %s, Pepperoni; %s, Bacon: %s", size, cheese, pepperoni, bacon);  
 	  }
@@ -29,8 +27,6 @@ public class Pizza {
 		    private boolean cheese = false;
 		    private boolean pepperoni = false;
 		    private boolean bacon = false;
-		    private boolean corn = false; 
-		    private boolean onions = false; 
 		    public Builder(int size) {
 		      this.size = size;
 		    }
@@ -48,11 +44,6 @@ public class Pizza {
 		      pepperoni = value;
 		      return this;
 		    }
-		    public Builder corn(boolean  value){
-		    	corn = value;
-		    	return this;
-		    }
-
 		    public Builder bacon(boolean value) {
 		      bacon = value;
 		      return this;
@@ -68,19 +59,15 @@ public class Pizza {
 		    cheese = builder.cheese;
 		    pepperoni = builder.pepperoni;
 		    bacon = builder.bacon;
-		    corn = builder.corn;
 		  }
 		  
 		  public static void main(String [] args) { 
 			  Pizza pizza = new Pizza.Builder(12,4)
-			  .corn(true)
               .pepperoni(true)
              .bacon(true)
               .cheese(true)
               .build();
-			  Pizza p  = new Pizza(12, true, false, false); 
               System.out.println(pizza.toString());
 			  System.out.println(pizza);
-			  Pizza pi1 = new Pizza.Builder(23).corn(true).build(); 
 		  }
 }

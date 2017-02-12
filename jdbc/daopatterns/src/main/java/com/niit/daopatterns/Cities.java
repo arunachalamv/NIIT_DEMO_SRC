@@ -1,13 +1,19 @@
 package com.niit.daopatterns;
 
 public class Cities implements java.io.Serializable{
-	private int id; 
+	private Integer id; 
 	private String name; 
 	private String district; 
-	public int getId() {
+	private Long population; 
+	public String toString() { 
+		String s = String.format("ID: %02d, Name: %s, District: %s, Population: %d", id,name, district,population);
+		return s; 
+			
+	}
+	public Integer getId() {
 		return id;
 	}
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 	public String getName() {
@@ -22,16 +28,11 @@ public class Cities implements java.io.Serializable{
 	public void setDistrict(String district) {
 		this.district = district;
 	}
-	public long getPopulation() {
+	public Long getPopulation() {
 		return population;
 	}
-	public void setPopulation(long population) {
+	public void setPopulation(Long population) {
 		this.population = population;
 	}
-	private long population; 
-	public String toString() { 
-		String s = String.format("ID: %02d, Name: %s, District: %s, Population: %d", id,name, district,population);
-		return s; 
-			
-	}
+	
 }

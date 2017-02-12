@@ -7,8 +7,6 @@ import java.sql.SQLException;
 import com.mysql.jdbc.Connection;
 import com.mysql.jdbc.Statement;
 import com.niit.utilities.PropertyHelper;
-import com.niit.utilities.PropertyLoader;
-
 
 public class SecondExample {
 	  static { 

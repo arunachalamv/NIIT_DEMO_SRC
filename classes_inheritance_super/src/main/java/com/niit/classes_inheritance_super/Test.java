@@ -3,7 +3,7 @@ public class Test {
 	public static void main(String[] args) {
         Foo f = new Bar();
         f.instanceMethod();
-        f.classMethod();// Will call FOO not Bar
+        //f.classMethod();// Will call FOO not Bar
         // Deliberately left the above to show warnings.. Clean it up!!!
         // to call Bar, dothis
         Bar.classMethod();

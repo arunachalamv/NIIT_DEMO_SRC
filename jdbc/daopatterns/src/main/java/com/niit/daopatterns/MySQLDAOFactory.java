@@ -6,7 +6,7 @@ import java.sql.SQLException;
 import com.mysql.jdbc.Connection;
 import com.mysql.jdbc.PreparedStatement;
 import com.mysql.jdbc.Statement;
-
+import com.niit.utilities.*;
 public class MySQLDAOFactory extends DAOFactory {
 		   static String JDBC_DRIVER = null;  
 		   static String DB_URL = null;
