@@ -221,7 +221,7 @@ public class GenericComparator implements Comparator, Serializable {
 	 * @throws NoSuchMethodException
 	 */
 	protected final Method getMethod(Object obj) throws NoSuchMethodException {
-		return obj.getClass().getMethod(targetMethod, null);
+		return obj.getClass().getMethod(targetMethod, (Class<?>[])null);
 	}
 
 	/**
@@ -235,7 +235,7 @@ public class GenericComparator implements Comparator, Serializable {
 	 */
 
 	private final static Object invoke(Method method, Object obj) throws InvocationTargetException, IllegalAccessException {
-		return method.invoke(obj, null);
+		return method.invoke(obj, (Object [])null);
 	}
 	/**
 	 * fetching a value from given object
@@ -251,7 +251,7 @@ public class GenericComparator implements Comparator, Serializable {
 	}
 	/**
 	 * identifying the comparison mode for given value
-	 *
+	
 	 * @param o1 - a {@link java.lang.Object}
 	 * @param o2 - a {@link java.lang.Object}
 	 * @return compareMode - a {@link com.niit.utilities.GenericComparator.CompareMode}
