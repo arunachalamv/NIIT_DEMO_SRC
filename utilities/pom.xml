@@ -7,9 +7,9 @@
     <artifactId>demo</artifactId>
     <version>1.93.5</version>
   </parent>
-  <groupId>com.niit.utilities</groupId>
+  <groupId>com.niit</groupId>
   <artifactId>utilities</artifactId>
-  <version>1.93.6</version>
+  <version>1.93.5</version>
   <name>utilities</name>
   <url>http://maven.apache.org</url>
   <properties>
