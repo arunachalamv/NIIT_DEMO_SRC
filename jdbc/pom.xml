@@ -15,18 +15,24 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
  	</properties>
+
+    <dependencies>
+    	<dependency>
+    		<groupId>com.niit</groupId>
+    		<artifactId>utilities</artifactId>
+    		<version>1.93.6</version>
+	</dependency>
+        <dependency>
+	    	<groupId>mysql</groupId>
+    		<artifactId>mysql-connector-java</artifactId>
+    		<version>5.1.40</version>
+	</dependency>
+      </dependencies>
+
    <modules>
     <module>firstexample</module>
     <module>secondexample</module>
     <module>daopatterns</module>
   </modules>
   
-    <dependencies>
-    <dependency>
-    <groupId>mysql</groupId>
-    <artifactId>mysql-connector-java</artifactId>
-    <version>5.1.40</version>
-</dependency>
-    
-  </dependencies>
 </project>

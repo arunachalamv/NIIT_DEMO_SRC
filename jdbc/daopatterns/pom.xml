@@ -18,7 +18,7 @@
 
     <dependencies>
     <dependency>
-    <groupId>com.niit.utilities</groupId>
+    <groupId>com.niit</groupId>
     <artifactId>utilities</artifactId>
     <version>1.93.6</version>
 </dependency>

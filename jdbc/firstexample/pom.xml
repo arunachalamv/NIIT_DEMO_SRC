@@ -11,6 +11,21 @@
   <artifactId>firstexample</artifactId>
   <version>1.93.6</version>
   <name>firstexample</name>
+
+    <dependencies>
+    	<dependency>
+    		<groupId>com.niit</groupId>
+    		<artifactId>utilities</artifactId>
+    		<version>1.93.6</version>
+	</dependency>
+        <dependency>
+	    	<groupId>mysql</groupId>
+    		<artifactId>mysql-connector-java</artifactId>
+    		<version>5.1.40</version>
+	</dependency>
+      </dependencies>
+
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
