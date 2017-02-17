@@ -175,6 +175,7 @@
 
 
 	<modules>
+	    <module>utilities</module>
 		<module>helloworld</module>
     	<module>thebasics</module>
     	<module>stringsandarrays</module>
@@ -184,7 +185,7 @@
     	<module>interfaces</module>
     	<module>designpatterns</module>
     	<module>jdbc</module>
-    	<module>utilities</module>
+		<module>generics</module>
     <module>collections</module>
   </modules>
 </project>
