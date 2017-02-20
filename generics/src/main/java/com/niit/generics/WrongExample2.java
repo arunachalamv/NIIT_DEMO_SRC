@@ -3,9 +3,6 @@ package com.niit.generics;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-
-import org.hamcrest.core.Is;
-
 public class WrongExample2 {
 	public static void main(String ... args){
 		// Create list

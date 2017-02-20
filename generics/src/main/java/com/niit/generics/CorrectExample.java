@@ -8,6 +8,7 @@ public class CorrectExample {
 		// Create list
 		List <Stamp>stamps = new ArrayList<Stamp>(); 
 		// Add values ... 
+		//stamps.add("sriram");
 		stamps.add(new Stamp("India",2016,true,200.00));
 		// Now below 2 lines will ***** NOT COMPILE ***
 		//stamps.add(new Coin("USA",2016,true,200.00,"Denver","Obverse Strike"));
@@ -16,6 +17,10 @@ public class CorrectExample {
 		// now how do we iterate only over stamps and not coins??
 		for (Stamp c: stamps){
 			System.out.println(c);
+		}
+		int arr[] = new int[] {3,4,5};
+		for (int i:arr){// for (int i =0; i<arr.length;i++)
+			System.out.println(i);
 		}
 		
 	}

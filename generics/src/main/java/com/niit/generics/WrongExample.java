@@ -12,6 +12,7 @@ public class WrongExample {
 		stamps.add(new Stamp("India",2016,true,200.00));
 		stamps.add(new Coin("USA",2016,true,200.00,"Denver","Obverse Strike"));
 		stamps.add(new Coin("USA",2014,true,200.00,"Philadelphia","Reverse Strike"));
+		stamps.add("Sriram");
 		stamps.add(new Stamp("India",2017,false,400.00));
 		// now how do we iterate only over stamps and not coins??
 		for (Iterator i = stamps.iterator(); i.hasNext();){

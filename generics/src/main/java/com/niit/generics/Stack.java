@@ -44,7 +44,7 @@ public class Stack<E> {
 		for (E e : src)
 		push(e);
 	}
-	
+
 	public static void main(String[] args) {
 		Stack<String> stack = new Stack<String>();
 		// My arsg are Sriram and Ravee
@@ -54,14 +54,20 @@ public class Stack<E> {
 		while (!stack.isEmpty())
 			System.out.println(stack.pop().toUpperCase());
 		Stack<Number> numberStack = new Stack<Number>();
-		Iterable<Integer> integers = Arrays.asList(1,2,3); 
-		numberStack.pushAll(integers);
+		//Iterable<Integer> integxers = Arrays.asList(1,2,3);
+       Iterable<Number> doublex = Arrays.asList(3.0,2.0,1);
+		numberStack.pushAll(doublex);
         Collection<Object> obj = new ArrayList<Object>(); 
         numberStack.popAll(obj);
         // should now print 3, 2,1 
         for(Object o:obj){
         	System.out.println(o);
         }
+       stack.popAll(obj);
+       for(Object o:obj){
+       	System.out.println(o);
+       }
+        Stack<Double>p = new Stack<Double>(); 
 	}
 
 }
