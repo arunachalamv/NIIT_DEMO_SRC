@@ -20,6 +20,7 @@ Use these files as base and extend to update them as per requirements of assignm
 |daopatterns                           |DAO, JDBC. DAO Patterns & Basic Collections  |
 |Collections                           |ArrayList,HashMap/Table, Double LinkedList   |
 |generics                              |Sample Stack implmenentation                 |
+|exceptions                            |Exceptions                                   |
 
 ## Required Software
 * Maven 

@@ -13,6 +13,7 @@ public class Example5 {
 		catch (Exception e){
 			throw new MyException(e, e.getLocalizedMessage()); 
 		}
+	
 		finally { z = 0; } 
 		return z; 
 	}
