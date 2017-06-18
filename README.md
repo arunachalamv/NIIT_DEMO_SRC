@@ -23,6 +23,7 @@ Use these files as base and extend to update them as per requirements of assignm
 |exceptions                            |Exceptions                                   |
 |threads                               |Threads                                      |
 |[Sample Spring MVC Login](https://github.com/SeshagiriSriram/SampleSpringMVCLogin)| A sample Login with Spring MVC and DB|
+|spring-hibernate-example                             |A trivial Hibernate Example                                     |
 
 ## Required Software
 * Maven 
