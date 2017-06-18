@@ -9,7 +9,7 @@ import com.mysql.jdbc.Statement;
 
 public class FirstExample {
 	// JDBC driver name and database URL
-	   static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
+	   static final String JDBC_DRIVER = "com.mysql.jdbc.Driver"; 
 	   static final String DB_URL = "jdbc:mysql://localhost:3306/world";
 	  // new FirstExample(); 
 	   //  Database credentials

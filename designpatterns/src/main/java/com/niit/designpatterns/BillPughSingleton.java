@@ -1,6 +1,5 @@
 package com.niit.designpatterns;
-
-// Use this.. and only this... 
+// Use this.. and only this...
 public class BillPughSingleton {
     private BillPughSingleton() {
     }

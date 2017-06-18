@@ -15,13 +15,16 @@ class Output extends Thread {
 		toSay = st;
 	}
 	public void run() {
+
 		try {
 			for(;;) {
-				System.out.println(toSay);
+				//System.out.println(toSay);
+				
+				
 				sleep(1000);
 			}
 		} catch(InterruptedException e) {
-			System.out.println(e);
+			//System.out.println(e);
 		}
 	}
 }

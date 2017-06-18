@@ -9,7 +9,7 @@
   </parent>
   <groupId>com.niit.collections</groupId>
   <artifactId>collections</artifactId>
-  <version>1.0.0</version>
+  <version>1.2.1</version>
   <name>collections</name>
   <url>http://maven.apache.org</url>
   <properties>

@@ -9,7 +9,7 @@
   </parent>
   <groupId>helloworld</groupId>
   <artifactId>helloworld</artifactId>
-  <version>1.1.1</version>
+  <version>1.1.2</version>
   <name>helloworld</name>
   <url>http://maven.apache.org</url>
   <properties>

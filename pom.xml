@@ -172,6 +172,6 @@
     	<module>jdbc</module>
        <module>collections</module>
     <module>exceptions</module>
-    <module>threads</module>
+    <!-- <module>threads</module> --> 
   </modules>
 </project>
