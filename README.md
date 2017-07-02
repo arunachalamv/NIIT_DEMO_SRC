@@ -23,7 +23,8 @@ Use these files as base and extend to update them as per requirements of assignm
 |exceptions                            |Exceptions                                   |
 |threads                               |Threads                                      |
 |[Sample Spring MVC Login](https://github.com/SeshagiriSriram/SampleSpringMVCLogin)| A sample Login with Spring MVC and DB|
-|spring-hibernate-example                             |A trivial Hibernate Example                                     |
+|spring-hibernate-example                             |A trivial Hibernate Example|
+|[Sample Angular JS](https://github.com/SeshagiriSriram/angularjs-cart)| A sample Angular JS .NET application|
 
 ## Required Software
 * Maven 
